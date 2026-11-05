@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Demo CT → PET Điện Biên
 
 Giao diện tiếng Việt, chữ lớn, thao tác theo ba bước: tải ZIP CT → chờ mô hình → xem CT/PET và tải PET. Hiện bật RegGAN baseline đã có trong workspace; có thể thay checkpoint hoặc thêm kiến trúc model sau.
@@ -265,3 +266,6 @@ Trang tải CT có bố cục hai cột trên desktop và một cột trên mobi
 là chế độ mặc định; từng hướng cắt có thẻ riêng và nhãn CT/PET/fusion. Màu hiển
 thị pixel, thang PET và phép dựng ảnh giữ nguyên; CSS chỉ thay đổi phần khung
 và điều khiển. Kiểm thử bằng dữ liệu tổng hợp ở `frontend/tests/mpr-default.spec.ts`.
+=======
+# web_ctpet
+>>>>>>> 5ad9e333b3fa2bb5a551432ccec8647e569109d9
