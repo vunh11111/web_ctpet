@@ -1,0 +1,10 @@
+{
+  "backend_url": "https://cable-sufficiently-around-instance.trycloudflare.com/api",
+  "upload_bytes": 110104853,
+  "chunks": 14,
+  "job_id": "5a7f38ab-a8c9-4b24-bfca-7de2f65911c1",
+  "inference": "completed",
+  "authorized_download": "valid ZIP",
+  "anonymous_download": "401",
+  "input": "synthetic CT only"
+}

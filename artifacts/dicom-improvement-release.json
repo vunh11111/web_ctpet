@@ -1,0 +1,27 @@
+{
+  "deployed_at": "2026-10-28T11:42:04.681083+00:00",
+  "deployment_id": "dpl_BPT6C9w92JHM9JoFio2kWErFDDPk",
+  "frontend_url": "https://dienbien-ct-pet-421a3d73.vercel.app",
+  "changes": [
+    "Skip single-frame Secondary Capture even when tagged CT",
+    "Offer explicit CT series selection; do not choose automatically",
+    "Persist selection in the job and PET metadata",
+    "Retry old INVALID_CT jobs with the existing ZIP",
+    "Preserve browser ownership and geometry validation"
+  ],
+  "checks": {
+    "python_tests": 12,
+    "local_browser_tests": 6,
+    "public_browser_tests": 6,
+    "actual_original_zip_slices_tested": [
+      161,
+      275
+    ],
+    "actual_original_zip_ignored_files": 15,
+    "actual_original_zip_all_six_previews_and_download": "passed"
+  },
+  "limitations": [
+    "Enhanced CT/multiframe still unsupported",
+    "True CT images with missing spatial metadata still rejected"
+  ]
+}

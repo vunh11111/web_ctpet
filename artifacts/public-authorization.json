@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-28",
+  "source": "explicit user confirmation in chat",
+  "cloudflare_https": true,
+  "existing_ct_pet": true,
+  "real_gpu_inference": true,
+  "authentication_required": true,
+  "vercel_frontend": true,
+  "login_screen_required": false,
+  "browser_scoped_cases": true,
+  "latest_user_request": "Remove the login feature from the deployed Vercel app"
+}

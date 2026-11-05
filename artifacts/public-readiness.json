@@ -1,0 +1,11 @@
+{
+  "authenticated_upload_bytes": 110104853,
+  "chunks": 14,
+  "retry_same_chunk": "passed",
+  "out_of_order_chunk": "rejected",
+  "complete_retry": "same job",
+  "inference": "completed",
+  "anonymous_private_routes": "401",
+  "cors_preflight": "passed",
+  "public_tunnel": "not opened; waiting for explicit data-sharing approval"
+}

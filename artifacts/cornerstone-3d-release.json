@@ -1,0 +1,59 @@
+{
+  "verified_at": "2026-11-03T13:00:30.764784+00:00",
+  "deployment_id": "dpl_AY9stDAk7m6CfhUY4Rx7UT1MkYTJ",
+  "frontend_url": "https://dienbien-ct-pet-421a3d73.vercel.app",
+  "backend_url": "https://cable-sufficiently-around-instance.trycloudflare.com/api",
+  "features": [
+    "Existing paired CT/PET three-plane PNG viewer",
+    "Cornerstone3D paired volumes with synchronized rotate/pan/zoom",
+    "Composite CT-PET 3D fusion with PET opacity slider",
+    "CT bone/soft presets and PET MIP/composite mode",
+    "Zoom/reset buttons and touch rotation/pinch bindings",
+    "WebGL2 fallback to existing 2D viewer"
+  ],
+  "dependencies": {
+    "@cornerstonejs/core": "4.22.13",
+    "@cornerstonejs/tools": "4.22.13",
+    "@kitware/vtk.js": "34.15.1"
+  },
+  "validation": {
+    "python_tests": "16 passed",
+    "local_browser_tests": "8 passed",
+    "public_browser_tests": "All 8 scenarios exercised successfully across initial run and rerun; 3 of 4 rerun scenarios required one retry",
+    "public_network_observations": "Intermittent Chromium ERR_NETWORK_CHANGED and associated preview/restore timeouts; rerun successful",
+    "camera_sync": "Camera event payloads identical after drag",
+    "opacity": "Fused viewport screenshot changes when PET opacity is zero",
+    "public_volume_payloads": "Both CT/PET verified over HTTPS; dimensions [84,84,88], patient LPS, x-fast float32",
+    "new_job_geometry": "Preview affine persisted and spacing verified",
+    "privacy": "401 without bearer; 404 for another browser owner; endpoint checks before loading volume"
+  },
+  "limits": [
+    "Preview only: shared decimation stride caps each dimension at 160; original inference/download data unchanged",
+    "Rendering requires browser WebGL2; software SwiftShader used for browser QA",
+    "Synthetic PET uses raw model units, not SUV",
+    "Legacy geometry fallback is specific to existing axis-aligned RegGAN resample_to_output grid"
+  ],
+  "screenshots": [
+    "artifacts/screenshots/paired-3d.png",
+    "artifacts/screenshots/fusion-3d.png",
+    "artifacts/screenshots/fusion-mobile.png"
+  ],
+  "whole_volume_update": {
+    "default_ct_preset": "Whole scanned body surface rendered from CT voxels",
+    "default_camera": "oblique 30 degree azimuth, 12 degree elevation",
+    "default_pet": "composite 3D (MIP optional)",
+    "controls": [
+      "drag rotation",
+      "left/right orbit",
+      "tilt",
+      "auto rotate with stop",
+      "zoom",
+      "home pose reset"
+    ],
+    "local_browser_tests": "2 passed including camera sync, auto rotation, surface preset, fusion and WebGL fallback",
+    "segmented_organ_meshes": false,
+    "deployment_id": "dpl_AY9stDAk7m6CfhUY4Rx7UT1MkYTJ",
+    "public_browser_tests": "1 passed: whole-volume preset, orbit, auto-rotation, camera synchronization and fusion",
+    "verified_at": "2026-11-03T13:14:25.717536+00:00"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "frontend_url": "https://dienbien-ct-pet-421a3d73.vercel.app",
+  "backend_url": "https://cable-sufficiently-around-instance.trycloudflare.com/api",
+  "deployment_id": "dpl_AY9stDAk7m6CfhUY4Rx7UT1MkYTJ",
+  "mode": "real GPU inference; public preview mode disabled",
+  "authentication": "required; private routes return 401 anonymously",
+  "public_browser_tests": "All 8 scenarios exercised successfully across initial run and rerun; 3 of 4 rerun scenarios required one retry",
+  "public_upload_bytes": 110104853,
+  "public_upload_chunks": 14,
+  "public_large_upload_inference": "completed",
+  "existing_dienbien_case": "authenticated all six CT/PET previews verified",
+  "backend_url_is_temporary": true,
+  "login_credentials_file": "data/demo-login.txt",
+  "manual_login_required": false,
+  "access_mode": "automatic browser sessions",
+  "unit_tests": "16 passed",
+  "verified_at": "2026-11-03T13:00:30.764784+00:00",
+  "mixed_dicom_export": true,
+  "ct_series_selection": true,
+  "retry_without_upload": true,
+  "real_mixed_dicom_series_verified": [
+    161,
+    275
+  ],
+  "enhanced_multiframe_supported": false,
+  "volume_viewer": {
+    "three_modes": true,
+    "camera_sync_verified": true,
+    "fusion_opacity_verified": true,
+    "webgl2_fallback_verified": true,
+    "protected_volume_api_verified": true
+  },
+  "public_network_observations": "Intermittent Chromium ERR_NETWORK_CHANGED and associated preview/restore timeouts; rerun successful",
+  "whole_volume_update": {
+    "default_ct_preset": "Whole scanned body surface rendered from CT voxels",
+    "default_camera": "oblique 30 degree azimuth, 12 degree elevation",
+    "default_pet": "composite 3D (MIP optional)",
+    "controls": [
+      "drag rotation",
+      "left/right orbit",
+      "tilt",
+      "auto rotate with stop",
+      "zoom",
+      "home pose reset"
+    ],
+    "local_browser_tests": "2 passed including camera sync, auto rotation, surface preset, fusion and WebGL fallback",
+    "segmented_organ_meshes": false,
+    "deployment_id": "dpl_AY9stDAk7m6CfhUY4Rx7UT1MkYTJ",
+    "public_browser_tests": "1 passed: whole-volume preset, orbit, auto-rotation, camera synchronization and fusion",
+    "verified_at": "2026-11-03T13:14:25.717536+00:00"
+  }
+}

@@ -1,0 +1,4 @@
+[
+  {"id":"reggan-baseline","label":"RegGAN baseline","adapter":"model_service.adapters.reggan:RegGANAdapter","checkpoint":"/models/baseline.pt","options":{"spacing_mm":3.0}},
+  {"id":"future-model","label":"Mô hình tiếp theo","adapter":"model_service.adapters.reggan:RegGANAdapter","checkpoint":"/models/future.pt","options":{"spacing_mm":3.0}}
+]

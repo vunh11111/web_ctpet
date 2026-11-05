@@ -1,0 +1,14 @@
+{
+  "unit_tests": "6 passed",
+  "browser_tests": "4 passed (Chromium; desktop and mobile layouts)",
+  "real_dienbien_case": "DB0036",
+  "real_job_id": "84d67fa6-4915-491f-b0b7-3bf816c89176",
+  "real_output_geometry": "matches canonical original CT physical grid",
+  "frontend": "http://192.168.1.17:3108",
+  "backend_port": 8108,
+  "model_port": 8109,
+  "database": "PostgreSQL 16, host port 55432",
+  "model": "RegGAN baseline",
+  "model_version": "d4376604526ef66fe6199cf07a152ca5e279db1c40bc6b76135c8355f5e1c645",
+  "full_docker_images_built": false
+}

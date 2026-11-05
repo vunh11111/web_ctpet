@@ -1,0 +1,10 @@
+# Optional NVIDIA runtime; GPU is local index 0 inside this container.
+services:
+  model:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["${GPU_ID:-1}"]
+              capabilities: [gpu]

@@ -1,0 +1,71 @@
+{
+  "id": "cd25c375-8ff7-4445-99d1-e0c3dc070b31",
+  "slices": 275,
+  "ignored_files": 15,
+  "status": "completed",
+  "preview_checks": 6,
+  "pet_zip_bytes": 263617387,
+  "result": {
+    "model_id": "reggan-baseline",
+    "pet_units": "model_raw_not_SUV",
+    "synthetic": true,
+    "model_label": "RegGAN baseline",
+    "generated_at": "2026-10-28T11:39:22.240758+00:00",
+    "input_format": "DICOM",
+    "input_details": {
+      "input_format": "DICOM",
+      "ignored_files": 15,
+      "source_slices": 275,
+      "selected_series_uid": "1.2.840.113619.2.55.3.2831165184.408.1500690876.287"
+    },
+    "model_version": "d4376604526ef66fe6199cf07a152ca5e279db1c40bc6b76135c8355f5e1c645",
+    "default_indices": {
+      "axial": 150,
+      "coronal": 84,
+      "sagittal": 84
+    },
+    "download_format": "NIfTI (.nii.gz) in ZIP",
+    "output_shape_xyz": [
+      512,
+      512,
+      275
+    ],
+    "preview_shape_xyz": [
+      168,
+      168,
+      300
+    ],
+    "output_orientation": "RAS",
+    "preview_spacing_mm": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "output_affine_RAS_mm": [
+      [
+        0.976562,
+        0.0,
+        0.0,
+        -249.02318200000002
+      ],
+      [
+        0.0,
+        0.976562,
+        0.0,
+        -249.02318200000002
+      ],
+      [
+        0.0,
+        0.0,
+        3.27,
+        -1081.48
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+}

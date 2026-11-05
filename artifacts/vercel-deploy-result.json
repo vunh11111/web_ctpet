@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_6os45R79K1Tgp8JxhC2seYJwiYhq",
+    "url": "https://dienbien-ct-pet-421a3d73-jk51r7ryd-vunguyenhuys-projects.vercel.app",
+    "productionUrl": "https://dienbien-ct-pet-421a3d73.vercel.app",
+    "inspectorUrl": "https://vercel.com/vunguyenhuys-projects/dienbien-ct-pet-421a3d73/6os45R79K1Tgp8JxhC2seYJwiYhq",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_6os45R79K1Tgp8JxhC2seYJwiYhq",
+    "buildMachine": {
+      "cores": 2,
+      "memory": 8192,
+      "machine": "basic",
+      "selectionType": "fixed",
+      "selectionSource": "plan-default"
+    },
+    "deploymentProtection": [
+      "vercel_authentication"
+    ]
+  },
+  "message": "Deployment dienbien-ct-pet-421a3d73-jk51r7ryd-vunguyenhuys-projects.vercel.app ready. Production URL: https://dienbien-ct-pet-421a3d73.vercel.app",
+  "next": [
+    {
+      "command": "vercel curl https://dienbien-ct-pet-421a3d73.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect dienbien-ct-pet-421a3d73-jk51r7ryd-vunguyenhuys-projects.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

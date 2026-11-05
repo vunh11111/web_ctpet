@@ -1,0 +1,9 @@
+{
+  "frontend_url": "https://cable-sufficiently-around-instance.trycloudflare.com",
+  "backend_url": "https://cable-sufficiently-around-instance.trycloudflare.com/api",
+  "temporary": true,
+  "authentication_required": true,
+  "note": "Quick Tunnel URL changes if the tunnel process is recreated; no uptime guarantee.",
+  "manual_login_required": false,
+  "browser_session_required": true
+}

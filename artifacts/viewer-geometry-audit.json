@@ -1,0 +1,668 @@
+{
+  "scope": "Existing preview arrays, no inference or patient identifiers. Values are not SUV.",
+  "cases": [
+    {
+      "case": 1,
+      "shape": [
+        103,
+        103,
+        92
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47327740597605805,
+          "pet_mean": 2053.786865234375,
+          "pet_p99": 8852.1416015625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47902724102177396,
+          "pet_mean": 1963.0389404296875,
+          "pet_p99": 8332.5234375
+        },
+        {
+          "z": 46,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.2929588085587709,
+          "pet_mean": 767.5877685546875,
+          "pet_p99": 5552.01025390625
+        },
+        {
+          "z": 90,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.32632670374210576,
+          "pet_mean": 635.8609619140625,
+          "pet_p99": 3902.7568359375
+        },
+        {
+          "z": 91,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.5244140625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 2,
+      "shape": [
+        103,
+        103,
+        92
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47327740597605805,
+          "pet_mean": 2053.786865234375,
+          "pet_p99": 8852.1416015625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47902724102177396,
+          "pet_mean": 1963.0389404296875,
+          "pet_p99": 8332.5234375
+        },
+        {
+          "z": 46,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.2929588085587709,
+          "pet_mean": 767.5877685546875,
+          "pet_p99": 5552.01025390625
+        },
+        {
+          "z": 90,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.32632670374210576,
+          "pet_mean": 635.8609619140625,
+          "pet_p99": 3902.7568359375
+        },
+        {
+          "z": 91,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.5244140625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "shape": [
+        103,
+        103,
+        92
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47327740597605805,
+          "pet_mean": 2053.786865234375,
+          "pet_p99": 8852.1416015625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47902724102177396,
+          "pet_mean": 1963.0389404296875,
+          "pet_p99": 8332.5234375
+        },
+        {
+          "z": 46,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.2929588085587709,
+          "pet_mean": 767.5877685546875,
+          "pet_p99": 5552.01025390625
+        },
+        {
+          "z": 90,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.32632670374210576,
+          "pet_mean": 635.8609619140625,
+          "pet_p99": 3902.7568359375
+        },
+        {
+          "z": 91,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.5244140625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 4,
+      "shape": [
+        204,
+        204,
+        182
+      ],
+      "spacing_mm": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.029892349096501347,
+          "ct_tissue_fraction": 0.482362552864283,
+          "pet_mean": 2094.17041015625,
+          "pet_p99": 8761.5771484375
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.029892349096501347,
+          "ct_tissue_fraction": 0.48483756247597076,
+          "pet_mean": 2047.9007568359375,
+          "pet_p99": 8461.6005859375
+        },
+        {
+          "z": 91,
+          "ct_below_minus_2000_fraction": 0.029916378316032294,
+          "ct_tissue_fraction": 0.29906766628219916,
+          "pet_mean": 814.8323974609375,
+          "pet_p99": 5638.43310546875
+        },
+        {
+          "z": 180,
+          "ct_below_minus_2000_fraction": 0.029916378316032294,
+          "ct_tissue_fraction": 0.32968089196462896,
+          "pet_mean": 645.9949951171875,
+          "pet_p99": 3888.559814453125
+        },
+        {
+          "z": 181,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 5644.759765625,
+          "pet_p99": 7266.04248046875
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "shape": [
+        204,
+        204,
+        182
+      ],
+      "spacing_mm": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.029892349096501347,
+          "ct_tissue_fraction": 0.482362552864283,
+          "pet_mean": 2094.17041015625,
+          "pet_p99": 8761.5771484375
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.029892349096501347,
+          "ct_tissue_fraction": 0.48483756247597076,
+          "pet_mean": 2047.9007568359375,
+          "pet_p99": 8461.6005859375
+        },
+        {
+          "z": 91,
+          "ct_below_minus_2000_fraction": 0.029916378316032294,
+          "ct_tissue_fraction": 0.29906766628219916,
+          "pet_mean": 814.8323974609375,
+          "pet_p99": 5638.43310546875
+        },
+        {
+          "z": 180,
+          "ct_below_minus_2000_fraction": 0.029916378316032294,
+          "ct_tissue_fraction": 0.32968089196462896,
+          "pet_mean": 645.9949951171875,
+          "pet_p99": 3888.559814453125
+        },
+        {
+          "z": 181,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 5644.759765625,
+          "pet_p99": 7266.04248046875
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "shape": [
+        168,
+        168,
+        176
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.21609268707482993,
+          "ct_tissue_fraction": 0.18448837868480725,
+          "pet_mean": 579.8180541992188,
+          "pet_p99": 5240.712890625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.21609268707482993,
+          "ct_tissue_fraction": 0.18037840136054423,
+          "pet_mean": 555.6846923828125,
+          "pet_p99": 5228.5205078125
+        },
+        {
+          "z": 88,
+          "ct_below_minus_2000_fraction": 0.21605725623582767,
+          "ct_tissue_fraction": 0.0633857709750567,
+          "pet_mean": 117.11817932128906,
+          "pet_p99": 2787.63427734375
+        },
+        {
+          "z": 174,
+          "ct_below_minus_2000_fraction": 0.21605725623582767,
+          "ct_tissue_fraction": 0.03677721088435374,
+          "pet_mean": 87.34133911132812,
+          "pet_p99": 1409.58349609375
+        },
+        {
+          "z": 175,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.525390625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "shape": [
+        103,
+        103,
+        92
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47327740597605805,
+          "pet_mean": 2053.786865234375,
+          "pet_p99": 8852.1416015625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47902724102177396,
+          "pet_mean": 1963.0389404296875,
+          "pet_p99": 8332.5234375
+        },
+        {
+          "z": 46,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.2929588085587709,
+          "pet_mean": 767.5877685546875,
+          "pet_p99": 5552.01025390625
+        },
+        {
+          "z": 90,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.32632670374210576,
+          "pet_mean": 635.8609619140625,
+          "pet_p99": 3902.7568359375
+        },
+        {
+          "z": 91,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.5244140625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 8,
+      "shape": [
+        103,
+        103,
+        92
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47327740597605805,
+          "pet_mean": 2053.786865234375,
+          "pet_p99": 8852.1416015625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47902724102177396,
+          "pet_mean": 1963.0389404296875,
+          "pet_p99": 8332.5234375
+        },
+        {
+          "z": 46,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.2929588085587709,
+          "pet_mean": 767.5877685546875,
+          "pet_p99": 5552.01025390625
+        },
+        {
+          "z": 90,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.32632670374210576,
+          "pet_mean": 635.8609619140625,
+          "pet_p99": 3902.7568359375
+        },
+        {
+          "z": 91,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.5244140625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 9,
+      "shape": [
+        168,
+        168,
+        176
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.21609268707482993,
+          "ct_tissue_fraction": 0.18448837868480725,
+          "pet_mean": 579.8180541992188,
+          "pet_p99": 5240.712890625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.21609268707482993,
+          "ct_tissue_fraction": 0.18037840136054423,
+          "pet_mean": 555.6846923828125,
+          "pet_p99": 5228.5205078125
+        },
+        {
+          "z": 88,
+          "ct_below_minus_2000_fraction": 0.21605725623582767,
+          "ct_tissue_fraction": 0.0633857709750567,
+          "pet_mean": 117.11817932128906,
+          "pet_p99": 2787.63427734375
+        },
+        {
+          "z": 174,
+          "ct_below_minus_2000_fraction": 0.21605725623582767,
+          "ct_tissue_fraction": 0.03677721088435374,
+          "pet_mean": 87.34133911132812,
+          "pet_p99": 1409.58349609375
+        },
+        {
+          "z": 175,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.525390625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 10,
+      "shape": [
+        168,
+        168,
+        300
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.21616354875283447,
+          "ct_tissue_fraction": 0.09998582766439909,
+          "pet_mean": 153.87298583984375,
+          "pet_p99": 2085.832275390625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.21609268707482993,
+          "ct_tissue_fraction": 0.09984410430839002,
+          "pet_mean": 153.42660522460938,
+          "pet_p99": 2068.2021484375
+        },
+        {
+          "z": 150,
+          "ct_below_minus_2000_fraction": 0.21616354875283447,
+          "ct_tissue_fraction": 0.18657879818594103,
+          "pet_mean": 630.7919921875,
+          "pet_p99": 6238.55810546875
+        },
+        {
+          "z": 298,
+          "ct_below_minus_2000_fraction": 0.2161281179138322,
+          "ct_tissue_fraction": 0.13871173469387754,
+          "pet_mean": 1766.15966796875,
+          "pet_p99": 29681.427734375
+        },
+        {
+          "z": 299,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.525390625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 11,
+      "shape": [
+        103,
+        103,
+        92
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47327740597605805,
+          "pet_mean": 2053.786865234375,
+          "pet_p99": 8852.1416015625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.47902724102177396,
+          "pet_mean": 1963.0389404296875,
+          "pet_p99": 8332.5234375
+        },
+        {
+          "z": 46,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.2929588085587709,
+          "pet_mean": 767.5877685546875,
+          "pet_p99": 5552.01025390625
+        },
+        {
+          "z": 90,
+          "ct_below_minus_2000_fraction": 0.031576962955980774,
+          "ct_tissue_fraction": 0.32632670374210576,
+          "pet_mean": 635.8609619140625,
+          "pet_p99": 3902.7568359375
+        },
+        {
+          "z": 91,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.5244140625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 12,
+      "shape": [
+        168,
+        168,
+        176
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.21609268707482993,
+          "ct_tissue_fraction": 0.18448837868480725,
+          "pet_mean": 579.8180541992188,
+          "pet_p99": 5240.712890625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.21609268707482993,
+          "ct_tissue_fraction": 0.18037840136054423,
+          "pet_mean": 555.6846923828125,
+          "pet_p99": 5228.5205078125
+        },
+        {
+          "z": 88,
+          "ct_below_minus_2000_fraction": 0.21605725623582767,
+          "ct_tissue_fraction": 0.0633857709750567,
+          "pet_mean": 117.11817932128906,
+          "pet_p99": 2787.63427734375
+        },
+        {
+          "z": 174,
+          "ct_below_minus_2000_fraction": 0.21605725623582767,
+          "ct_tissue_fraction": 0.03677721088435374,
+          "pet_mean": 87.34133911132812,
+          "pet_p99": 1409.58349609375
+        },
+        {
+          "z": 175,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.525390625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    },
+    {
+      "case": 13,
+      "shape": [
+        168,
+        168,
+        300
+      ],
+      "spacing_mm": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "axis_aligned": true,
+      "slices": [
+        {
+          "z": 0,
+          "ct_below_minus_2000_fraction": 0.21616354875283447,
+          "ct_tissue_fraction": 0.09998582766439909,
+          "pet_mean": 153.87298583984375,
+          "pet_p99": 2085.832275390625
+        },
+        {
+          "z": 1,
+          "ct_below_minus_2000_fraction": 0.21609268707482993,
+          "ct_tissue_fraction": 0.09984410430839002,
+          "pet_mean": 153.42660522460938,
+          "pet_p99": 2068.2021484375
+        },
+        {
+          "z": 150,
+          "ct_below_minus_2000_fraction": 0.21616354875283447,
+          "ct_tissue_fraction": 0.18657879818594103,
+          "pet_mean": 630.7919921875,
+          "pet_p99": 6238.55810546875
+        },
+        {
+          "z": 298,
+          "ct_below_minus_2000_fraction": 0.2161281179138322,
+          "ct_tissue_fraction": 0.13871173469387754,
+          "pet_mean": 1766.15966796875,
+          "pet_p99": 29681.427734375
+        },
+        {
+          "z": 299,
+          "ct_below_minus_2000_fraction": 0.0,
+          "ct_tissue_fraction": 0.0,
+          "pet_mean": 10643.525390625,
+          "pet_p99": 10643.5244140625
+        }
+      ]
+    }
+  ]
+}

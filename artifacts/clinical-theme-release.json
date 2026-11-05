@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-11-04T14:34:33.410442+00:00",
+  "deployment_id": "dpl_6os45R79K1Tgp8JxhC2seYJwiYhq",
+  "frontend_url": "https://dienbien-ct-pet-421a3d73.vercel.app",
+  "theme": "clinical workspace: navy, teal, blue, pale slate; desktop split upload layout; mobile single column",
+  "default_viewer": "linked MPR",
+  "duplicate_slice_ui_removed": true,
+  "typescript": "passed",
+  "production_build": "passed",
+  "local_synthetic_browser_tests": "3 passed",
+  "public_synthetic_browser_tests": "3 passed; upload test retried after transient ERR_NETWORK_CHANGED",
+  "live_backend_check": "public homepage loads; real model ready; no login screen; new CSS verified",
+  "real_inference_rerun": false,
+  "screenshots": [
+    "clinical-live-homepage.png",
+    "clinical-upload-desktop.png",
+    "clinical-upload-mobile.png",
+    "clinical-mpr-desktop.png",
+    "clinical-mpr-mobile.png"
+  ]
+}

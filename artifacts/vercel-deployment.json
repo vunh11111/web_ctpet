@@ -1,0 +1,12 @@
+{
+  "project_name": "dienbien-ct-pet-421a3d73",
+  "mode": "connected",
+  "backend_public": true,
+  "frontend_url": "https://dienbien-ct-pet-421a3d73.vercel.app",
+  "backend_url": "https://cable-sufficiently-around-instance.trycloudflare.com/api",
+  "deployment_id": "dpl_6os45R79K1Tgp8JxhC2seYJwiYhq",
+  "status": "READY",
+  "manual_login_required": false,
+  "access_mode": "automatic browser sessions",
+  "browser_scoped_cases": true
+}
